@@ -10,4 +10,10 @@ export const ICONS = {
   shieldCheck: require('./icons/shield-check.png'),
   squareTriplet: require('./icons/square-3-stack-3d.png'),
   user: require('./icons/user.png'),
+  xMark: require('./icons/x-mark.png'),
+  chevronRight: require('./icons/chevron-right.png'),
+};
+
+export const IMAGES = {
+  avatar: require('./images/avatar.png'),
 };

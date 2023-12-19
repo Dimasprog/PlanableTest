@@ -1,3 +1,12 @@
+import { ImageSourcePropType } from 'react-native';
+import { UserStackParamList } from '../../navigation/UserStack/UserStack.types';
+
 export type SettingsItemProps = {
-  test: string;
+  title: string;
+  icon: ImageSourcePropType;
+  style?: Partial<{
+    iconBackgroundColor: string;
+    titleColor: string;
+  }>;
+  screenName?: UserStackParamList;
 };
